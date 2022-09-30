@@ -1,0 +1,98 @@
+
+
+
+input[type=button],input[type=submit]
+{
+    background-color:#a4d3de;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px 6px ;
+    box-shadow: 3px 3px 3px black;
+    position: center;
+    font-family: Arial;
+    border-radius: 10px;
+  }
+
+  input[type=text]
+  {  
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: left;
+    font-size: 16px;
+    margin: 4px 4px;
+    box-shadow: 0px;
+  }
+
+  input[type=date]
+  {  
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: left;
+    font-size: 16px;
+    margin: 4px 4px;
+    box-shadow: 0px;
+  }
+
+  
+  input[type=date]
+  {  
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 4px;
+    text-align: left;
+    font-size: 16px;
+    margin: 4px 4px;
+  }
+
+  
+  input[type=email]
+  {  
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 4px;
+    text-align: left;
+    font-size: 16px;
+    margin: 4px 4px;
+
+  
+  }
+  input[type=email]
+  {  
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: left;
+    font-size: 16px;
+    margin: 4px 4px;
+    box-shadow: 0px;
+  }
+  
+   label {
+    font-family: Arial;
+    padding: 4px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+   
+    font-size: 18px;
+   }
+
+   table{
+    background-color: #ffffff;
+    padding: 5px 5px;
+   }
+
+   td{
+    padding: 15px 8px;
+   }

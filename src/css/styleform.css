@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  
+  main{
+    max-width: 800px;
+    width: 90%; 
+    padding: 48px;
+  }
+  /*
+  .todo{
+    display: flex;
+    width: 100%;
+    margin: 0 20px;
+  }
+  
+  */  
+  
+  .contenedor_form{
+  
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    /*margin: 12% ;*/
+    gap: 50px;
+  
+  }
+  
+  
+  
+  .contenedor_form-imgPer{
+    margin: 30% 0%;
+    margin-left: 40%;
+    width: 55%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  3px 0px 30px rgba(163, 163, 163, 1);
+    padding:  80px;
+  
+  
+  }
+  .contenedor_form-imgPer img{
+    
+    width: 50%;
+    margin: 20px;
+  
+  }
+  .contenedor{
+    margin: 30% 0%;
+    margin-right: 25%;
+    width:55%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  3px 0px 30px rgba(163, 163, 163, 1);
+  
+    padding:  80px;
+  }
+  
+  .contenedor_form-style{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  
+  .modal{
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.81);
+    display: block;
+  }
+  
+  .perfilCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .imgPerfil{
+    display: block;
+    margin: auto;
+    padding: 2rem 5rem !important;
+  }
+
+  .bodyPerfil {
+    flex-grow: 1;
+    gap: 5rem;
+    padding: 1rem !important;
+  }
+
+  .labelPerfil{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .labelPerfil div{
+    text-align: left !important;
+    width: 100%;
+  }
+  .labelPerfil h6{
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+  .labelPerfil span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+  }
+
+  @media (min-width: 640px) { 
+    .labelPerfil div {
+      width: 50%;
+    }
+  }

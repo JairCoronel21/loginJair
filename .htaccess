@@ -1,0 +1,2 @@
+#cambiar página de inicio por defecto
+DirectoryIndex src/pages/auth/login.php
